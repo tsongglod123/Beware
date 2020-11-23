@@ -1,5 +1,8 @@
 package gamesystem;
 
+import gamesystem.Map;
+import gamesystem.Control;
+
 public class Player {
     
     private final int MAX_HP = 20;
