@@ -44,7 +44,6 @@ public class UserScreen {
                 case 3 : {
                     System.out.println("Bye~ ");
                     System.exit(0);
-                }
             }
         }
     }
@@ -86,7 +85,6 @@ public class UserScreen {
                 case 2 : {
                     getScene();
                     break;
-                }
             }
         }
     }
@@ -109,7 +107,6 @@ public class UserScreen {
             case 4 : {
                 player.moveLeft(map);
                 break;
-            }
         }
         System.out.println();
     }
