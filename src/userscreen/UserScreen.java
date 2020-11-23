@@ -33,15 +33,13 @@ public class UserScreen {
             throw new Error("Please enter number between 1 to 3 !!!");
         } else {
             switch (item) {
-                case 1 : {
+                case 1 :
                     getMainScene();
                     break;
-                }
-                case 2 : {
+                case 2 :
                     getHowToPlayScene();
                     break;
-                }
-                case 3 : {
+                case 3 :
                     System.out.println("Bye~ ");
                     System.exit(0);
             }
@@ -78,11 +76,10 @@ public class UserScreen {
             throw new Error("Please enter number between 1 to 2 !!!");
         } else {
             switch (item) {
-                case 1 : {
+                case 1 :
                     getMainScene();
                     break;
-                }
-                case 2 : {
+                case 2 :
                     getScene();
                     break;
             }
@@ -92,19 +89,16 @@ public class UserScreen {
     public void getGameScene(int getNumber, Map map, Player player) {
         //up=1 down=2 right=3 left=4        
         switch (getNumber) {
-            case 1 : {
+            case 1 :
                 player.moveUp(map);
                 break;
-            }
-            case 2 : {
+            case 2 :
                 player.moveDown(map);
                 break;
-            }
-            case 3 : {
+            case 3 :
                 player.moveRight(map);
                 break;
-            }
-            case 4 : {
+            case 4 :
                 player.moveLeft(map);
                 break;
         }
