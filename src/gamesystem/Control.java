@@ -1,8 +1,5 @@
 package gamesystem;
 
-import gamesystem.GameSystem;
-import gamesystem.Map;
-
 public class Control {
     
     private int move_x;
