@@ -1,3 +1,5 @@
+package Beware;
+
 import java.util.Scanner;
 import gamesystem.Map;
 import gamesystem.GameSystem;

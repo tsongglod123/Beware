@@ -57,35 +57,35 @@ public class Map {
         }
     }
 
-    int getMapSize() {
+    public int getMapSize() {
         return ((size >= MAP_SIZE) ? size : MAP_SIZE);
     }
 
-    int getBOMBS_DMG() {
+    public int getBOMBS_DMG() {
         return BOMBS_DMG;
     }
     
-    String getBOMB_SYM() {
+    public String getBOMB_SYM() {
         return BOMB_SYM;
     }
 
-    String getEND_SYM() {
+    public String getEND_SYM() {
         return END_SYM;
     }
 
-    String getMAP_SYM() {
+    public String getMAP_SYM() {
         return MAP_SYM;
     }
 
-    String getPLAYER_SYM() {
+    public String getPLAYER_SYM() {
         return PLAYER_SYM;
     }
 
-    String[][] getArraysOfMapWithBombs() {
+    public String[][] getArraysOfMapWithBombs() {
         return mapWithBomb;
     }
 
-    String[][] getArraysOfOriginalMap() {
+    public String[][] getArraysOfOriginalMap() {
         return originalMap;
     }
 

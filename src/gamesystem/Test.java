@@ -9,10 +9,10 @@ public class Test {
     }
     */
     static void test() {
-        var map = new Map();
+        Map map = new Map();
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
-        var player = new Player();
+        Player player = new Player();
         
         player.getCurrentHP_bar();
         map.setBombsOnMap();
