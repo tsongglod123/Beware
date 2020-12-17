@@ -13,7 +13,7 @@ public class Control {
     Control moveLeft(Player player, Map map) {
         GameSystem gameSystem = new GameSystem();
         --move_x;
-        if (move_x < 0) {
+        if (getPosition_x() < 0) {
             move_x = map.getMapSize() - 1;
         }
         player.getCurrentPlayerPosition(map, this);
@@ -28,7 +28,7 @@ public class Control {
     Control moveRight(Player player, Map map) {
         GameSystem gameSystem = new GameSystem();
         ++move_x;
-        if (move_x > map.getMapSize() - 1) {
+        if (getPosition_x() > map.getMapSize() - 1) {
             move_x = 0;
         }
         player.getCurrentPlayerPosition(map, this);
@@ -43,7 +43,7 @@ public class Control {
     Control moveUp(Player player, Map map) {
         GameSystem gameSystem = new GameSystem();
         --move_y;
-        if (move_y < 0) {
+        if (getPosition_y() < 0) {
             move_y = map.getMapSize() - 1;
         }
         player.getCurrentPlayerPosition(map, this);
@@ -58,7 +58,7 @@ public class Control {
     Control moveDown(Player player, Map map) {
         GameSystem gameSystem = new GameSystem();
         ++move_y;
-        if (move_y > map.getMapSize() - 1) {
+        if (getPosition_y() > map.getMapSize() - 1) {
             move_y = 0;
         }
         player.getCurrentPlayerPosition(map, this);
